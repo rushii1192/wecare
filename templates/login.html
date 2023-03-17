@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-</head>
-<body>
-    <form action="/login/" method="post"> {% csrf_token %}
-        <input type="text" name="email" placeholder="Username">
-        <input type="password" name="password" placeholder="Password">
-        <input type="submit" value="Login">
-        <input type="reset" value="Reset">
-    </form>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="/static/global.css" />
+    <link rel="stylesheet" href="/static/css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-autolayout-done">
+      <img
+        class="login-autolayout-done-child"
+        alt=""
+        src="/static/public/ellipse-3.svg"
+      /><img
+        class="login-autolayout-done-item"
+        alt=""
+        src="/static/public/ellipse-4.svg"
+      />
+      <div class="login-autolayout-done-inner" id="loginFormContainer">
+        <div class="content-wrapper" id="kkdjk">
+          <form class="content">
+            <div class="log-in-parent">
+              <b class="log-in">Log In</b>
+              <div class="complete-your-facial">
+                Complete your facial recognition to Log in.
+              </div>
+            </div>
+            <div class="input-boxes">
+              <input class="input-boxes-child" type="text" /><input
+                class="input-boxes-item"
+                type="text"
+              />
+            </div>
+            <div class="buttons" id="buttons-container">
+              <button class="scan-face">
+                <div class="scan-patient-face-container">
+                  <span class="scan-patient-face">Scan Patient Face</span
+                  ><span class="span">*</span>
+                </div></button
+              ><button class="submit"><div class="submit1">Submit</div></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

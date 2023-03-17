@@ -1,0 +1,147 @@
+.login-autolayout-done-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 718.86px;
+  height: 671.12px;
+}
+.login-autolayout-done-item {
+  position: absolute;
+  top: 380.91px;
+  left: 697.69px;
+  width: 742.31px;
+  height: 643.09px;
+}
+.complete-your-facial,
+.log-in {
+  position: relative;
+  font-family: var(--font-raleway);
+  text-align: left;
+}
+.log-in {
+  font-size: 50px;
+  display: inline-block;
+  color: #000247;
+  width: 426px;
+  height: 61px;
+  flex-shrink: 0;
+}
+.complete-your-facial {
+  font-size: var(--font-size-5xl);
+  color: #b8acac;
+}
+.log-in-parent {
+  display: flex;
+  flex-direction: column;
+  padding: 9px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.input-boxes-child,
+.input-boxes-item {
+  border: 1px solid var(--color-black);
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 408px;
+  height: 57px;
+  flex-shrink: 0;
+}
+.input-boxes-item {
+  width: 696px;
+  height: 68px;
+}
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 57px;
+}
+.scan-patient-face {
+  color: var(--color-black);
+}
+.span {
+  color: #f74909;
+}
+.scan-patient-face-container {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  text-align: center;
+}
+.scan-face {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-mini) 23px;
+  background-color: transparent;
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submit1 {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-white);
+  text-align: center;
+}
+.buttons,
+.content,
+.submit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submit {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) 82px;
+  background-color: #000248;
+  border-radius: var(--br-xl);
+}
+.buttons,
+.content {
+  gap: 55px;
+}
+.content {
+  flex-direction: column;
+  gap: 52px;
+}
+.content-wrapper,
+.login-autolayout-done-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login-autolayout-done-inner {
+  position: absolute;
+  top: 256px;
+  left: 314px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  width: 831px;
+  height: 543px;
+  flex-direction: column;
+  padding: 86px 67px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.login-autolayout-done {
+  position: relative;
+  background-color: #f9f9f0;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+}
