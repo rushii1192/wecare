@@ -1,4 +1,5 @@
 from django.db import models
+from hospital.models import DoctorModel
 
 # Create your models here.
 
@@ -13,7 +14,11 @@ class PatientModel(models.Model):
 
 
 class AppointmentModel(models.Model):
-    userId = models.ForeignKey(PatientModel)
-    startTime = models.DateTimeField()
+    # userId = models.ForeignKey(PatientModel, on_delete=models.CASCADE)
+    startTime = models.DateTimeField(auto_now=True)
+    endTime = models.DateTimeField(auto_now=True)
+    status = models.CharField(max_length=100)
+    symtopms = models.CharField(max_length=200)
+    # doctorId = models.ForeignKey(DoctorModel, on_delete=models.CASCADE, blank=True)
 
 
