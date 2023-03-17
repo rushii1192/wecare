@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from .models import PatientModel
+from .models import PatientModel,AppointmentModel
 from faceDetection.detection import FaceRecognition
 
 faceRecognition = FaceRecognition()
@@ -54,6 +54,21 @@ def appointment(request):
         return HttpResponse("Succefully created")
     
     return HttpResponse("Not created")
+
+def createAppointment(request):
+    if request.method == 'POST':
+        appointment = AppointmentModel(
+            userId=request.POST.get('userId'), 
+            startTime=request.POST.get('startTime'),
+            endTime=request.POST.get('endTime'),
+            status=request.POST.get('status'),
+            symtopms=request.POST.get('symtopms'),
+        )
+        appointment.save()
+
+        return HttpResponse("Successfully created")
+    
+    return render(request, 'register.html')
 
 def scan(request):
     if request.method == 'POST':

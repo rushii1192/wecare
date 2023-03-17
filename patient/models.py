@@ -15,6 +15,8 @@ class PatientModel(models.Model):
 
 class AppointmentModel(models.Model):
     # userId = models.ForeignKey(PatientModel, on_delete=models.CASCADE)
+    userId = models.CharField(max_length=100)
+    docterId = models.CharField(max_length=100)
     startTime = models.DateTimeField(auto_now=True)
     endTime = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=100)
