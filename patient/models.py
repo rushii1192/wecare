@@ -1,6 +1,6 @@
 from django.db import models
 from hospital.models import DoctorModel
-
+from django.contrib.auth.hashers import make_password
 # Create your models here.
 
 class PatientModel(models.Model):   
@@ -12,6 +12,9 @@ class PatientModel(models.Model):
     createDate = models.DateField(auto_now_add=True)
     updatedDate = models.DateField(auto_now=True)
 
+def encrpytpassword(self, *args, **kwargs):
+        self.password = make_password(self.password)
+        super(PatientModel, self).encrpytpassword(*args, **kwargs)
 
 class AppointmentModel(models.Model):
     # userId = models.ForeignKey(PatientModel, on_delete=models.CASCADE)
