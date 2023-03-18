@@ -1,0 +1,281 @@
+.rectangle-div {
+  top: 0.51rem;
+}
+.group-child1,
+.group-child2,
+.rectangle-div {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-100);
+  width: 2.31rem;
+  height: 0.41rem;
+}
+.group-child1 {
+  top: 1.03rem;
+}
+.group-child2 {
+  top: 0;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0.94rem;
+  left: 17.13rem;
+  width: 2.31rem;
+  height: 1.44rem;
+  display: none;
+}
+.side-bar-item {
+  position: absolute;
+  top: 30.38rem;
+  left: 1.25rem;
+  border-radius: var(--br-32xl);
+  background-color: var(--color-dodgerblue);
+  width: 21.31rem;
+  height: 3.88rem;
+}
+.dashboard2 {
+  cursor: pointer;
+  top: 15.63rem;
+  color: var(--color-black);
+}
+.dashboard2,
+.history1,
+.profile1 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 4rem;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  text-align: center;
+  display: inline-block;
+}
+.profile1 {
+  cursor: pointer;
+  top: 23.38rem;
+  color: var(--color-black);
+}
+.history1 {
+  top: 31.13rem;
+  color: var(--color-floralwhite);
+}
+.side-bar1 {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 20.38rem;
+  height: 64.63rem;
+  flex-shrink: 0;
+}
+.your-appointment-history {
+  margin: 0;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  width: 55.94rem;
+}
+.hey-neel-mistry1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+}
+.your-appointment-history-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.44rem;
+}
+.diarrhoea,
+.symptoms1 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.symptoms1 {
+  font-weight: 500;
+  width: 7.97rem;
+}
+.diarrhoea {
+  width: 6.84rem;
+}
+.symptoms-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.doctor-visited,
+.dr-rushikesh-borakhede {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.doctor-visited {
+  font-weight: 500;
+  width: 10.32rem;
+}
+.dr-rushikesh-borakhede {
+  width: 17.34rem;
+}
+.doctor-visited-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.date-visited,
+.th-march-2023 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.date-visited {
+  font-weight: 500;
+  width: 8.86rem;
+}
+.th-march-2023 {
+  width: 13.56rem;
+}
+.date-visited-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.p {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  width: 11.71rem;
+  flex-shrink: 0;
+}
+.frame-div,
+.open-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-div {
+  gap: var(--gap-5xl);
+}
+.open-content {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-200);
+  height: 15.94rem;
+  flex-shrink: 0;
+  padding: var(--padding-17xl) var(--padding-466xl) var(--padding-17xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+}
+.diarrhoea1,
+.doctor-visited1,
+.symptoms2 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.symptoms2 {
+  font-weight: 500;
+  width: 7.97rem;
+}
+.diarrhoea1,
+.doctor-visited1 {
+  width: 6.84rem;
+}
+.doctor-visited1 {
+  font-weight: 500;
+  width: 10.32rem;
+}
+.dr-rushikesh-borakhede1 {
+  width: 17.34rem;
+}
+.date-visited1,
+.dr-rushikesh-borakhede1,
+.th-march-20231 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.date-visited1 {
+  font-weight: 500;
+  width: 8.86rem;
+}
+.th-march-20231 {
+  width: 13.56rem;
+}
+.p1 {
+  margin: 0;
+}
+.div1 {
+  position: relative;
+  display: inline-block;
+  width: 11.71rem;
+  flex-shrink: 0;
+}
+.open-content1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-200);
+  height: 15.94rem;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-17xl) var(--padding-466xl) var(--padding-17xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.open-content-parent {
+  flex-direction: column;
+  padding: 1.88rem 0 0;
+  gap: var(--gap-18xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.frame-group,
+.open-content-parent,
+.side-bar-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-group {
+  background-color: var(--color-white);
+  width: 69.63rem;
+  height: 64.63rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-78xl) var(--padding-81xl) var(--padding-78xl)
+    var(--padding-43xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.side-bar-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+  flex-direction: row;
+}
+.customer-history-autolayout {
+  position: relative;
+  background-color: var(--color-floralwhite);
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-raleway);
+}

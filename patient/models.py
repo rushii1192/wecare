@@ -9,6 +9,7 @@ class PatientModel(models.Model):
     lastName = models.CharField(max_length=25)
     mobile = models.CharField(max_length=25)
     password = models.CharField(max_length=70)
+    bloodGroup = models.CharField(max_length=25)
     createDate = models.DateField(auto_now_add=True)
     updatedDate = models.DateField(auto_now=True)
 

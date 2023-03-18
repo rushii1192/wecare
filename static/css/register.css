@@ -1,0 +1,225 @@
+.register {
+  position: relative;
+  display: inline-block;
+  width: 26.63rem;
+  height: 3.81rem;
+  flex-shrink: 0;
+}
+.click-on-submit1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: #aba0a0;
+}
+.register-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.first-name,
+.last-name {
+  border: 1px solid var(--color-black);
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 22.5rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+}
+.last-name {
+  width: 20.5rem;
+}
+.name1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.88rem;
+}
+.frame-child1,
+.frame-inner,
+.frame-input,
+.frame-item {
+  border: 1px solid var(--color-black);
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 44.13rem;
+  height: 3.69rem;
+  flex-shrink: 0;
+}
+.frame-child1,
+.frame-inner,
+.frame-input {
+  width: 29rem;
+  height: 3.56rem;
+}
+.frame-child1,
+.frame-input {
+  width: 15rem;
+}
+.frame-child1 {
+  width: 25.5rem;
+}
+.frame-parent9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+}
+.frame-child2,
+.upload-image-child {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.frame-child2 {
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 43.5rem;
+  height: 5.88rem;
+  flex-shrink: 0;
+}
+.upload-image-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 15.75rem;
+  height: 3.69rem;
+}
+.scan-patient-face1 {
+  color: var(--color-black);
+}
+.span1 {
+  color: var(--color-orangered);
+}
+.scan-patient-face-container1 {
+  position: absolute;
+  top: 0.94rem;
+  left: 1.13rem;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  text-align: center;
+}
+.upload-image {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 15.75rem;
+  height: 3.69rem;
+  flex-shrink: 0;
+}
+.submit-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-midnightblue-100);
+  width: 15.56rem;
+  height: 3.69rem;
+}
+.submit3 {
+  position: absolute;
+  top: 0.94rem;
+  left: 5.13rem;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-white);
+  text-align: center;
+}
+.submit2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 15.56rem;
+  height: 3.69rem;
+  flex-shrink: 0;
+}
+.frame-parent8,
+.name-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.44rem;
+}
+.frame-parent8 {
+  gap: 3.38rem;
+}
+.frame-child3 {
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    #3ea5d1 31.77%,
+    rgba(87, 226, 217, 0.6) 99.99%,
+    rgba(198, 253, 250, 0)
+  );
+  width: 22.44rem;
+  height: 53.75rem;
+  flex-shrink: 0;
+}
+.frame-parent7,
+.frame-wrapper2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent7 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2.81rem;
+}
+.frame-wrapper2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 1.69rem 0 var(--padding-29xl) 5.56rem;
+  align-items: flex-start;
+}
+.doc-img-icon {
+  position: absolute;
+  top: 5.19rem;
+  left: 47.31rem;
+  width: 28.38rem;
+  height: 48.63rem;
+  object-fit: cover;
+}
+.group-div {
+  position: absolute;
+  top: 2.81rem;
+  left: 7.19rem;
+  width: 75.69rem;
+  height: 58.44rem;
+}
+.register-autolayout-done {
+  position: relative;
+  background-color: var(--color-floralwhite);
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-raleway);
+}

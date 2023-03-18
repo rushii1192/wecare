@@ -8,8 +8,8 @@
 </head>
 <body>
     This is home page
-    <form action="/appointment/" method="post"> {% csrf_token %}
-        <input type="submit" value="submit">
+    <form action="/appointment/" method="get"> 
+        <input type="submit" value="Make Appointment">
     </form>
 
     <form action="/scan/" method="post"> {% csrf_token %}

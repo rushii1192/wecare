@@ -1,0 +1,247 @@
+.group-child {
+  top: 0.51rem;
+}
+.group-child,
+.group-inner,
+.group-item {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-100);
+  width: 2.31rem;
+  height: 0.41rem;
+}
+.group-item {
+  top: 1.03rem;
+}
+.group-inner {
+  top: 0;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0.94rem;
+  left: 17.13rem;
+  width: 2.31rem;
+  height: 1.44rem;
+  display: none;
+}
+.dashboard,
+.history,
+.profile,
+.side-bar-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.side-bar-child {
+  background-color: var(--color-dodgerblue);
+  top: 14.88rem;
+  left: 1.06rem;
+  border-radius: var(--br-32xl);
+  width: 21.31rem;
+  height: 3.88rem;
+}
+.dashboard,
+.history,
+.profile {
+  background-color: transparent;
+  top: 15.63rem;
+  left: 4rem;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.history,
+.profile {
+  top: 23.38rem;
+  color: var(--color-black);
+}
+.history {
+  top: 31.13rem;
+}
+.dashboard1,
+.side-bar {
+  position: relative;
+  flex-shrink: 0;
+}
+.side-bar {
+  background-color: var(--color-whitesmoke-100);
+  width: 20.38rem;
+  height: 64.63rem;
+}
+.dashboard1 {
+  margin: 0;
+  font-weight: 800;
+  display: inline-block;
+  width: 26.19rem;
+  height: 4.75rem;
+}
+.hey-neel-mistry {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+}
+.appointment-information {
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+}
+.name,
+.neel-mistry {
+  position: absolute;
+  top: 0;
+}
+.name {
+  left: 0;
+  font-weight: 600;
+}
+.neel-mistry {
+  margin: 0;
+  left: 5.44rem;
+  font-weight: 500;
+}
+.name-parent {
+  position: relative;
+  width: 15.19rem;
+  height: 2.06rem;
+  flex-shrink: 0;
+}
+.fever,
+.symptoms {
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+.symptoms {
+  left: 0;
+  font-weight: 600;
+}
+.fever {
+  left: 10.06rem;
+  font-weight: 500;
+}
+.symptoms-parent {
+  position: relative;
+  width: 14.63rem;
+  height: 2.06rem;
+  flex-shrink: 0;
+}
+.pm-300 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 9.06rem;
+  font-weight: 500;
+}
+.time-slot-parent {
+  position: relative;
+  width: 25.19rem;
+  height: 2.06rem;
+  flex-shrink: 0;
+}
+.mr-rushikesh-borakhede {
+  position: absolute;
+  top: 0;
+  left: 14.75rem;
+  font-weight: 500;
+}
+.doctor-assigned-parent {
+  position: relative;
+  width: 35.25rem;
+  height: 2.06rem;
+  flex-shrink: 0;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 13.5rem;
+  font-weight: 500;
+}
+.token-number-parent {
+  position: relative;
+  width: 16.19rem;
+  height: 2.06rem;
+  flex-shrink: 0;
+}
+.appointment-information-parent,
+.group-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group-parent {
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+}
+.appointment-information-parent {
+  gap: 4.06rem;
+}
+.frame-child {
+  position: relative;
+  width: 15.69rem;
+  height: 15.69rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-container,
+.frame-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-17xl);
+}
+.frame-container {
+  border-radius: 12px;
+  background-color: #f3f3f3;
+  box-shadow: 0 4px 5px 6px rgba(0, 0, 0, 0.11);
+  flex-direction: column;
+  padding: 3.75rem 3.38rem 4.75rem;
+  align-items: flex-start;
+  font-size: 2.38rem;
+}
+.dashboard-parent {
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.dashboard-parent,
+.frame-wrapper,
+.side-bar-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  background-color: var(--color-white);
+  height: 64.63rem;
+  flex-direction: column;
+  padding: var(--padding-78xl) var(--padding-81xl) var(--padding-78xl)
+    var(--padding-43xl);
+  box-sizing: border-box;
+}
+.side-bar-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+}
+.customer-dashboard-autolayo {
+  position: relative;
+  background-color: var(--color-floralwhite);
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-raleway);
+}
