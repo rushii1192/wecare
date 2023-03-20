@@ -1,0 +1,193 @@
+.icon2,
+.wecare2 {
+  position: relative;
+}
+.icon2 {
+  width: 3.19rem;
+  height: 2.94rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.wecare2 {
+  text-decoration: none;
+  font-size: var(--font-size-26xl);
+  font-weight: 800;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: left;
+}
+.logo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.add-doctor,
+.scan {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  text-align: left;
+}
+.scan {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  color: var(--color-black);
+  display: inline-block;
+}
+.add-doctor {
+  color: var(--color-floralwhite);
+}
+.add-doctor-wrapper,
+.nav {
+  justify-content: flex-start;
+}
+.add-doctor-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 8.94rem var(--padding-xs) var(--padding-20xl);
+  background-color: var(--color-dodgerblue);
+  border-radius: var(--br-32xl) 0 0 var(--br-32xl);
+  width: 17.88rem;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.nav {
+  flex-direction: column;
+  padding: var(--padding-56xl) 0;
+  gap: var(--gap-40xl);
+}
+.logo-group,
+.nav,
+.side-bar1 {
+  display: flex;
+  align-items: flex-start;
+}
+.logo-group {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-40xl);
+}
+.side-bar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-105xl) var(--padding-23xl) var(--padding-413xl);
+  justify-content: flex-start;
+}
+.add-doctor1 {
+  position: relative;
+}
+.email,
+.name {
+  border: 1px solid var(--color-gray-200);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name {
+  font-family: var(--font-raleway);
+  padding: var(--padding-lg) 31.25rem var(--padding-lg) 2.19rem;
+}
+.email {
+  padding: var(--padding-mid) 23.69rem var(--padding-mid) 2.31rem;
+}
+.email,
+.phone-number,
+.save {
+  font-family: var(--font-raleway);
+}
+.phone-number {
+  border: 1px solid var(--color-gray-200);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lgi) 12.5rem var(--padding-lgi) 2.13rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.save {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  text-align: center;
+}
+.add-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) 4.25rem;
+  background-color: var(--color-midnightblue-100);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.add-doctor-parent,
+.name-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.add-doctor-parent {
+  position: absolute;
+  top: 6.19rem;
+  left: 4.13rem;
+  gap: 4.13rem;
+}
+.icon3,
+.right {
+  position: absolute;
+}
+.icon3 {
+  top: 26.69rem;
+  left: 38.25rem;
+  width: 37.44rem;
+  height: 39.06rem;
+  object-fit: cover;
+}
+.right {
+  top: 0;
+  left: 20.5rem;
+  background-color: var(--color-white);
+  width: 69.5rem;
+  height: 63.94rem;
+}
+.side-bar-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+  height: 64.63rem;
+}
+.admin-add-doctor-export-read {
+  position: relative;
+  background-color: var(--color-floralwhite);
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-raleway);
+}

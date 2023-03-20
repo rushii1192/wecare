@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    {% load static %}
+    <link rel="stylesheet" href="./CustomerAppointmentExportReady.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="customer-appointment-export">
+      <div class="side-bar-parent">
+        <nav class="side-bar">
+          <div class="logo-parent">
+            <button class="logo1">
+              <img class="icon1" alt="" src="./public/logo1@2x.png" /><a
+                class="wecare1"
+                >WeCare</a
+              >
+            </button>
+            <div class="dashboard-parent">
+              <button class="dashboard">Dashboard</button
+              ><button class="dashboard">Profile</button
+              ><button class="dashboard">History</button
+              ><button class="book-appointment-wrapper">
+                <button class="book-appointment">Book Appointment</button>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div class="right-main">
+          <div class="content">
+            <div class="head">
+              <b class="book-appointment1">Book Appointment</b>
+              <div class="click-on-submit">
+                Click on Submit to book appointment.
+              </div>
+            </div>
+            <div class="inputs">
+              <input
+                class="inputs-child"
+                type="text"
+                placeholder="Enter your preferred time slot"
+                required
+              /><input
+                class="inputs-item"
+                type="text"
+                placeholder="Describe your symptoms"
+                required
+              />
+            </div>
+            <div class="buttons">
+              <button class="scan-face">
+                <div class="scan-patient-face-container">
+                  <span class="scan-patient-face">Scan Patient Face</span
+                  ><span class="span">*</span>
+                </div></button
+              ><button class="submit"><b class="submit1">Submit</b></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

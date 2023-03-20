@@ -6,8 +6,8 @@ faceRecognition = FaceRecognition()
 
 # Create your views here.
 def home(request):
-    return HttpResponse("This is my home page")
-
+    # return HttpResponse("This is my home page")
+    return render(request, 'HomepageExportReady.html')
 
 def create(request):
     if request.method == 'POST':
