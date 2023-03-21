@@ -1,0 +1,321 @@
+.group-item {
+  top: 0.51rem;
+}
+.group-child1,
+.group-inner,
+.group-item {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-100);
+  width: 2.31rem;
+  height: 0.41rem;
+}
+.group-inner {
+  top: 1.03rem;
+}
+.group-child1 {
+  top: 0;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0.94rem;
+  left: 17.13rem;
+  width: 2.31rem;
+  height: 1.44rem;
+  display: none;
+}
+.icon10 {
+  position: relative;
+  width: 3.19rem;
+  height: 2.94rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.wecare9 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-26xl);
+  font-weight: 800;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: left;
+}
+.logo9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.dashboard9,
+.patient-data3 {
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  text-align: left;
+}
+.dashboard9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+}
+.patient-data3 {
+  position: absolute;
+  top: 0.81rem;
+  left: 2rem;
+  color: var(--color-white);
+}
+.patient-data-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-dodgerblue);
+  position: relative;
+  border-radius: var(--br-32xl) 0 0 var(--br-32xl);
+  width: 17.75rem;
+  height: 3.88rem;
+  flex-shrink: 0;
+}
+.nav1 {
+  flex-direction: column;
+  padding: var(--padding-56xl) 0;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+}
+.logo-parent4,
+.nav1,
+.side-bar7 {
+  display: flex;
+  align-items: flex-start;
+}
+.logo-parent4 {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-40xl);
+}
+.side-bar7 {
+  background-color: var(--color-whitesmoke-100);
+  width: 20.38rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-105xl) var(--padding-23xl) var(--padding-413xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.john-doe1,
+.patient-data4,
+.symptoms4 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+.patient-data4 {
+  font-weight: 700;
+  width: 32.44rem;
+}
+.john-doe1,
+.symptoms4 {
+  width: 6.71rem;
+  flex-shrink: 0;
+}
+.symptoms4 {
+  width: 7.59rem;
+}
+.assign-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-48xl);
+  background-color: var(--color-orangered);
+  width: 9.87rem;
+  height: 2.88rem;
+}
+.view-data {
+  position: absolute;
+  top: 0.56rem;
+  left: 1.39rem;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-raleway);
+  color: var(--color-floralwhite);
+  text-align: left;
+  display: inline-block;
+  width: 7.09rem;
+}
+.assign-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 9.87rem;
+  height: 2.88rem;
+  flex-shrink: 0;
+}
+.demo-1,
+.john-doe-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.john-doe-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: 16.75rem;
+}
+.demo-1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-5xl);
+  align-items: flex-start;
+}
+.details-open-child {
+  position: relative;
+  width: 1.38rem;
+  height: 1.59rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.details-open {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xl) var(--padding-29xl) var(--padding-6xl)
+    var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49.56rem;
+}
+.date-time,
+.th-march-20231 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.date-time {
+  font-weight: 500;
+  width: 14.19rem;
+}
+.th-march-20231 {
+  width: 11.71rem;
+}
+.date-and-time {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.56rem;
+}
+.doctor-visited1,
+.dr-rushikesh-borakhede1 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.doctor-visited1 {
+  font-weight: 500;
+  width: 10.32rem;
+}
+.dr-rushikesh-borakhede1 {
+  width: 17.34rem;
+}
+.doc-visited {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.diarrhoea1,
+.symptoms6 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.symptoms6 {
+  font-weight: 500;
+  width: 7.97rem;
+}
+.diarrhoea1 {
+  width: 6.84rem;
+}
+.room-no {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.info {
+  gap: var(--gap-5xl);
+}
+.contents-inside,
+.details-open-parent,
+.info,
+.open-content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.open-content1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-200);
+  padding: var(--padding-17xl) var(--padding-466xl) var(--padding-17xl)
+    var(--padding-5xl);
+}
+.contents-inside,
+.details-open-parent {
+  gap: var(--gap-smi);
+}
+.contents-inside {
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.contents {
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}
+.contents,
+.right-main4,
+.side-bar-parent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.right-main4 {
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-80xl) 5.5rem 28.13rem var(--padding-48xl);
+}
+.side-bar-parent2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 64rem;
+  flex-direction: row;
+}
+.admin-patient-details-export {
+  position: relative;
+  background-color: var(--color-floralwhite);
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-raleway);
+}

@@ -1,0 +1,234 @@
+.icon4,
+.wecare3 {
+  position: relative;
+}
+.icon4 {
+  width: 3.19rem;
+  height: 2.94rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.wecare3 {
+  text-decoration: none;
+  font-size: var(--font-size-26xl);
+  font-weight: 800;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: left;
+}
+.logo3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.dashboard2,
+.profile1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-10xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.profile1 {
+  color: var(--color-white);
+}
+.profile-wrapper {
+  border-radius: var(--br-32xl) 0 0 var(--br-32xl);
+  background-color: var(--color-dodgerblue);
+  width: 18.19rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-173xl) var(--padding-sm)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboard-group {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-67xl);
+}
+.dashboard-group,
+.logo-container,
+.side-bar2 {
+  display: flex;
+  align-items: flex-start;
+}
+.logo-container {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-139xl);
+}
+.side-bar2 {
+  background-color: var(--color-whitesmoke-100);
+  width: 21.13rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-73xl) 0 var(--padding-284xl) var(--padding-28xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.my-profile {
+  margin: 0;
+  font-weight: 700;
+  display: inline-block;
+  width: 21.31rem;
+  height: 3.81rem;
+}
+.email1,
+.my-profile,
+.username {
+  position: relative;
+  flex-shrink: 0;
+}
+.username {
+  border: 0;
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  width: 42.82rem;
+  height: 3.59rem;
+}
+.email1 {
+  width: 23.5rem;
+  height: 3.56rem;
+}
+.city,
+.email1,
+.phone-number1,
+.state {
+  border: 0;
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+}
+.phone-number1 {
+  position: relative;
+  width: 23.91rem;
+  height: 3.63rem;
+  flex-shrink: 0;
+}
+.city,
+.state {
+  position: absolute;
+  top: 0;
+  width: 19.29rem;
+  height: 3.59rem;
+}
+.city {
+  left: 0;
+}
+.state {
+  left: 23.42rem;
+}
+.blood-group,
+.city-state {
+  position: relative;
+  width: 42.71rem;
+  height: 3.59rem;
+  flex-shrink: 0;
+}
+.blood-group {
+  border: 0;
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  width: 22.83rem;
+  height: 3.56rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-15xl);
+}
+.save2 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: center;
+}
+.save1 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-2xs) 4.44rem;
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.save3 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-raleway);
+  color: var(--color-gray-300);
+  text-align: center;
+}
+.book {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) 2.69rem;
+  background-color: #0e64d2;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons1,
+.main-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons1 {
+  flex-direction: row;
+  gap: var(--gap-20xl);
+}
+.main-form {
+  flex-direction: column;
+  gap: 3.81rem;
+}
+.main,
+.side-bar-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main {
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: 6.56rem 24.81rem 4.63rem 4.06rem;
+  gap: 4rem;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-raleway);
+}
+.side-bar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+}
+.my-profile-desktop-export-read {
+  position: relative;
+  background-color: var(--color-floralwhite);
+  width: 100%;
+  height: 64.25rem;
+  overflow: hidden;
+}
