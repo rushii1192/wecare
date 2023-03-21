@@ -1,6 +1,12 @@
 from django.db import models
+<<<<<<< Updated upstream
 from hospital.models import DoctorModel
 from django.contrib.auth.hashers import make_password
+=======
+from django.contrib.auth.hashers import make_password
+
+
+>>>>>>> Stashed changes
 # Create your models here.
 
 class PatientModel(models.Model):   
@@ -13,9 +19,16 @@ class PatientModel(models.Model):
     createDate = models.DateField(auto_now_add=True)
     updatedDate = models.DateField(auto_now=True)
 
+<<<<<<< Updated upstream
 def encrpytpassword(self, *args, **kwargs):
         self.password = make_password(self.password)
         super(PatientModel, self).encrpytpassword(*args, **kwargs)
+=======
+    # def save(self, *args, **kwargs):
+    #     self.password = make_password(self.password)
+    #     super(PatientModel, self).save(*args, **kwargs)
+
+>>>>>>> Stashed changes
 
 class AppointmentModel(models.Model):
     # userId = models.ForeignKey(PatientModel, on_delete=models.CASCADE)

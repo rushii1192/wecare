@@ -7,4 +7,5 @@ urlpatterns = [
     path('login/', login, name='patient_login'),
     path('appointment/', createAppointment, name='patient_appointment'),
     path('scan/', scan, name='patient_scan'),
+    path('dashboard/', dashboard, name='patient_dashboard')
 ]

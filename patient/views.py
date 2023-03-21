@@ -1,6 +1,7 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 from .models import PatientModel, AppointmentModel
 from faceDetection.detection import FaceRecognition
+from django.contrib.auth.hashers import make_password, check_password
 
 faceRecognition = FaceRecognition()
 
@@ -25,11 +26,18 @@ def create(request):
     
     return render(request, 'register.html')
 
+def dashboard(request):
+    patient = PatientModel.objects.get(mobile=request.session['id'])
+    print(patient)
+    return render(request, 'dashboard.html')
 
 def login(request):
     if request.method == 'POST':
         email = request.POST.get('email')
+        # password = make_password(request.POST.get('password'))
         password = request.POST.get('password')
+
+        print(password)
         patient = PatientModel.objects.filter(email=email, password=password)
         if patient:
             patient = patient[0]
@@ -39,9 +47,10 @@ def login(request):
             request.session['id'] = patient.mobile
             print(patient.email)
             return render(request, 'dashboard.html')
+            # redirect('patient_dashboard')
         else:
-            return HttpResponse("Invalid credentials")
-    
+            return HttpResponse("<script>alert('Invalid Credentials'); window.location.href='/login/'; </script>")
+            
     return render(request, 'login.html')
 
 
